@@ -1,19 +1,4 @@
 
-
-A0W030_1minute <- read.table(file=("./Data-goverment/A0W030-1minutes-rainfalldata-modify.txt"),header=T,sep=",")
-C0W140_1minute <- read.table(file=("./Data-goverment/C0W140-1minutes-rainfalldata.txt"),header=T,sep=",")
-C0W150_1minute <- read.table(file=("./Data-goverment/C0W150-1minutes-rainfalldata.txt"),header=T,sep=",")
-k467110_1minute <- read.table(file=("./Data-goverment/467110-1minutes-rainfalldata.txt"),header=T,sep=",")
-
-A0W030_1minute$A0W030_rain[c(507512,850678,365152,507513)] <- 0.0
-
-data1 <- C0W140_1minute$minrain
-data2 <- C0W150_1minute$minrain
-data3 <- k467110_1minute$minrain
-data <- A0W030_1minute$A0W030_rain
-
-
-
 # seperate rainfall 
 count <-0
 i <- 0
