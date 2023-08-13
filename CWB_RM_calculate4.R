@@ -1,5 +1,5 @@
 
-# seperate rainfall 
+# Seperate rainfall 
 count <-0
 i <- 0
 z <- 1
