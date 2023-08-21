@@ -1,9 +1,10 @@
 # Rainfall erosivity factor
 
+
 This R script calculates RUSLE Rm factor that from Renard et al. (1997)
 
 - Input one minute rainfall data 
-
+- Created by NTUT 
 
 ## Reference
 
